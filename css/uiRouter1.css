@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+.webList{
+	width: 600px;
+	margin: auto;
+}
+.webList li{
+	float: left;
+	width: 150px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	background: #404040;
+}
+.webList a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.webList li.active{
+    background: linear-gradient(to bottom,#3388ff,#26b7ff);
+}
+.listCon{
+	background: linear-gradient(to top,#3388ff,#26b7ff);
+	padding: 10px;
+	text-indent: 2rem;
+	color: #fff;
+}
